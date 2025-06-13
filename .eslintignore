@@ -1,0 +1,12 @@
+# ESLint 忽略文件
+/dist
+/node_modules
+/*.js
+/*.config.js
+/public
+/.vscode
+/.idea
+.DS_Store
+*.log
+*.min.js
+coverage
