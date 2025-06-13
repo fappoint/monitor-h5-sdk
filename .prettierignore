@@ -1,0 +1,11 @@
+# Prettier 忽略文件
+/dist
+/node_modules
+/public
+/build
+/coverage
+.DS_Store
+*.log
+*.min.js
+package-lock.json
+yarn.lock
