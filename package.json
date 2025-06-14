@@ -1,6 +1,6 @@
 {
   "name": "monitor-h5-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/h5Monitor.umd.js",
   "module": "dist/h5Monitor.esm.js",
@@ -21,7 +21,8 @@
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm publish --access public"
+    "publish": "npm publish --access public",
+    "release": "standard-version"
   },
   "keywords": [],
   "author": "",
@@ -42,6 +43,7 @@
     "prettier": "^3.5.3",
     "rollup": "^2.79.2",
     "rollup-plugin-terser": "^7.0.2",
+    "standard-version": "^9.5.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
