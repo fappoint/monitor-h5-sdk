@@ -77,6 +77,6 @@ export default function injectXHR() {
       this.addEventListener("load", handler("load"), false);
       this.addEventListener("error", handler("error"), false);
     }
-    return oldOpen.apply(this, arguments);
+    return oldSend.apply(this, arguments);
   };
 }
